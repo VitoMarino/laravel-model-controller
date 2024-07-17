@@ -11,7 +11,7 @@
 
     @include('partials.header')
 
-    <main>
+    <main id="app-main">
         @yield('main-content')
         @yield('main-about')
     </main>

@@ -1,9 +1,7 @@
 @extends('layouts.app')
 
 @section('main-content')
-    <h1>
+    <h1 class="text-center">
         Home page
     </h1>
-
-    <img src="{{ Vite::asset('resources/img/1.webp') }}" alt="">
 @endsection

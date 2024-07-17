@@ -1,5 +1,30 @@
 @import "~bootstrap/scss/bootstrap";
 
-h1{
-    color: red;
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+// HEADER
+header#app-header{
+    @import './partials/_header.scss';
+}
+
+// MAIN
+main#app-main{
+    @import './partials/_main.scss';
+}
+
+// FOOTER
+footer#app-footer{
+    @import './partials/_footer.scss';
 }
