@@ -8,16 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
 
-    </header>
+    @include('partials.header')
 
     <main>
         @yield('main-content')
+        @yield('main-about')
     </main>
 
-    <footer>
-
-    </footer>
+    @include('partials.footer')
 </body>
 </html>
